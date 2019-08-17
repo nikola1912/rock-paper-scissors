@@ -1,7 +1,7 @@
-const myArray = ["Rock", "Paper", "Scissors"];
 
 function computerPlay() {
-    return myArray[Math.floor(Math.random() * myArray.length)];
+    const moves = ["Rock", "Paper", "Scissors"];
+    return moves[Math.floor(Math.random() * moves.length)];
 }
 
 function playRound(playerSelection, computerSelection) {
