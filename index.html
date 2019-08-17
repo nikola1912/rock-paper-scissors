@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="app.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Rock, Paper, Scissors</title>
 </head>
 <body>
     
+    
+    <div id="results">
+        <div id="headline"><h4>TAKE YOUR PICK</h4></div>     
+        <div class="cell cellBtn">
+            <button class="btn gameON" id="rock">Rock</button>
+            <button class="btn gameON" id="paper">Paper</button>
+            <button class="btn gameON" id="scissors">Scissors</button>
+        </div>
+        <div id="headline"><h4>RESULT</h4></div>
+        <div class="cell" id="playerLabel"><p>Player:</p></div>
+        <div class="cell" id="playerMove"><section id="player"></section></div>
+        <div class="cell" id="computerLabel"><p>Computer:</p></div>
+        <div class="cell" id="computerMove"><section id="computer"></section></div>
+        <div class="cell" id="scoreCell">
+            <section id="score">
+                <section id="playerScore">0</section>:<section id="computerScore">0</section>
+            </section>
+        </div>
+        <div class="cell" id="resultCell"><section id="result"></section></div>
+
+        <div class="cell displayToogle" id="finalCell">
+            <section id="final"></section>
+            <button class="gameOFF" id="resetBtn">Reset</button>
+        </div>
+
+
+    </div>
+    
+    <script src="app.js"></script>
 </body>
 </html>
